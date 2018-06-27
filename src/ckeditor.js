@@ -47,25 +47,17 @@ ClassicEditor.build = {
 	config: {
 		toolbar: {
 			items: [
-				'heading',
-				'|',
 				'bold',
 				'italic',
+				'underline',
+				'|',
 				'link',
 				'bulletedList',
 				'numberedList',
-				'imageUpload',
 				'blockQuote',
+				'|',
 				'undo',
 				'redo'
-			]
-		},
-		image: {
-			toolbar: [
-				'imageStyle:full',
-				'imageStyle:side',
-				'|',
-				'imageTextAlternative'
 			]
 		},
 		language: 'en'
